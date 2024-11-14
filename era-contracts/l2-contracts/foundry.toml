@@ -19,7 +19,8 @@ remappings = [
 fs_permissions = [
     { access = "read", path = "zkout" },
     { access = "read", path = "../system-contracts/bootloader/build/artifacts" },
-    { access = "read", path = "../system-contracts/artifacts-zk/contracts-preprocessed" }
+    { access = "read", path = "../system-contracts/artifacts-zk/contracts-preprocessed" },
+    { access = "read", path = "../system-contracts/artifacts-zk/contracts/data-availability/RollupL2DAValidator.sol/RollupL2DAValidator.json"}
 ]
 
 [profile.default.zksync] 
